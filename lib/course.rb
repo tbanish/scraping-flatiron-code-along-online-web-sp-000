@@ -4,7 +4,7 @@ class Course
   @@all = []
 
   def self.all
-    self.reset_all
+    @@all
   end
   
   def reset_all
